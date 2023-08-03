@@ -1,0 +1,23 @@
+
+function setup() {
+
+createCanvas(600, 600);
+
+background("white");
+
+}
+
+function draw() {
+
+stroke("#E91E63");
+
+fill("#03A9F4");
+
+if(mouseIsPressed){
+
+line(mouseX, mouseY, 20, 35);
+
+}
+
+}
+
